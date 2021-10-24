@@ -22,6 +22,9 @@ library(shinyanimate)
 library(shinyjs)
 library(shinyBS)
 
+
+library(shinyjqui)
+
 ## Setting Upload Size 
 options(shiny.maxRequestSize=30*1024^2)
 options(shiny.error = traceback)

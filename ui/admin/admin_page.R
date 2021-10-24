@@ -3,6 +3,9 @@ library(shinydashboard)
 Build <-
   source('./ui/admin/build_page.R', local = TRUE)
 
+Board <-
+  source('./ui/admin/board_page.R', local = TRUE)
+
 About <-
   source('./ui/admin/about_page.R', local = TRUE)
 
@@ -51,7 +54,7 @@ fluidPage(
       # Build Page ----
       Build$value,
       
-      
+      Board$value,
       
       # About Page ----
       About$value

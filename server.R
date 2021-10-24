@@ -7,4 +7,8 @@ server <- function(input, output, session) {
   source('./srv/hash.R', local = TRUE)
   
   
+  # * Board Functionality ----
+  source('./srv/board.R', local = TRUE)
+  
+  
 }
